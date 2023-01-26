@@ -2,9 +2,13 @@ import React from "react"
 import Navbar from "./components/Navbar/navbar"
 import About from "./components/Content/about"
 import particlesConfig from './config/configParticles.json'
+import Timeline from './components/VerticalTimeline/verticaltimeline'
+import VerticalEducationTimeline from "./components/verticaltimelineeducation/verticaltimelineedu"
+import React_Masonry from "./components/photogallery/masonry"
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import "./App.css"
 
 export default function App() {
     const particlesInit = useCallback(async engine => {
@@ -18,15 +22,24 @@ export default function App() {
     const particlesLoaded = useCallback(async container => {
       await console.log(container);
     }, []);
-
   return (
     <div style={{ position: 'relative', overflow: "hidden" }}>
-        <div style={{ position: 'absolute'}}>
+      {/* <div style={{ position: 'absolute'}}>
         <Particles id="tsparticles"
             init={particlesInit} loaded={particlesLoaded} height="100vh" width="100vw" options={particlesConfig} />
-      </div>
+      </div> */}
       <Navbar />
       <About />
+      
+      <React_Masonry/>
+      <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
+          <h1 className="text-6xl">Experiences</h1>
+      </div>
+      <Timeline/>
+      <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
+          <h1 className="text-6xl">Education</h1>
+      </div>
+      <VerticalEducationTimeline/>
     </div>
   )
 }
