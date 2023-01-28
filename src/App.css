@@ -3,6 +3,10 @@ html{
 
 }
 
+:root {
+  color-scheme: only light;
+}
+
 .textHeadline{
     
         --g: 50px;     /* the gap */

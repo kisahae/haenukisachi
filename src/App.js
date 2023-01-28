@@ -11,7 +11,7 @@ import VerticalEducationTimeline from "./components/verticaltimelineeducation/ve
 import React_Masonry from "./components/photogallery/masonry"
 import Skills from "./components/skills/skills"
 import MyProject from "./components/myproject/myproject"
-import sticker from "../src/images/cute-cartoon.gif"
+import sticker from "../src/images/cute-cartoon-unscreen.gif"
 import { DiGithubBadge } from "react-icons/di";
 
 import "./App.css"
