@@ -9,7 +9,7 @@ function Navbar() {
         activeColor="primary"
         css={{display:"flex",justifyContent:"center"}}
       >
-        <NextUINavbar.Link href="#about">About Me</NextUINavbar.Link>
+        <NextUINavbar.Link href="#about">About</NextUINavbar.Link>
         <NextUINavbar.Link href="#experience">Experiences</NextUINavbar.Link>
         <NextUINavbar.Link href="#education">Education</NextUINavbar.Link>
         <NextUINavbar.Link href="#project">Projects</NextUINavbar.Link>
