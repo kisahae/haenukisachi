@@ -11,8 +11,8 @@ function Timeline(){
 
         
 <VerticalTimeline lineColor="#000">
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+  <VerticalTimelineElement 
+    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     date="November 2022 - Present"
     iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
@@ -27,7 +27,7 @@ function Timeline(){
 
 
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
     
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     date="June 2019 - August 2022"
@@ -43,7 +43,7 @@ function Timeline(){
 
 
   <VerticalTimelineElement
-    className="vertical-timeline-element--work"
+    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     date="June 2019 - August 2022"
     iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
@@ -57,11 +57,6 @@ function Timeline(){
   </VerticalTimelineElement>
   </VerticalTimeline>
   </div>
-
-
-
-
-
   </div>
 )
 }

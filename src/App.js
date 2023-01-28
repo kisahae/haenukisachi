@@ -2,15 +2,15 @@ import React from "react"
 import Navbar from "./components/Navbar/navbar"
 import About from "./components/Content/about"
 import particlesConfig from './config/configParticles.json'
+import { Container } from "@nextui-org/react"
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 import Timeline from './components/VerticalTimeline/verticaltimeline'
 import VerticalEducationTimeline from "./components/verticaltimelineeducation/verticaltimelineedu"
 import React_Masonry from "./components/photogallery/masonry"
-import { useCallback } from "react";
-import { Container } from "@nextui-org/react"
-
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import Skills from "./components/skills/skills"
+import MyProject from "./components/myproject/myproject"
 import "./App.css"
 
 export default function App() {
@@ -37,28 +37,26 @@ export default function App() {
       
       <React_Masonry/>
       <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
-          <h1 className="text-6xl">Experiences</h1>
+          <h1 className="text-6xl underline decoration-blue-700" style={{textUnderlineOffset: "30px"}}>Experiences</h1>
       </div>
       <Timeline/>
       <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
-          <h1 className="text-6xl">Education</h1>
+          <h1 className="text-6xl underline decoration-blue-700" style={{textUnderlineOffset: "30px"}}>Education</h1>
       </div>
       <VerticalEducationTimeline/>
+
       <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
-          <h1 className="text-6xl">Skills</h1>
+          <h1 className="text-6xl p-5 underline decoration-blue-700" style={{textUnderlineOffset: "30px"}}>Skills</h1>
       </div>
-      <Container style={{display:"flex",justifyContent:"space-evenly"}}>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      <Skills/>
-      </Container>
+
+
+      <div style={{display:"flex",justifyContent:"center"}}>
+          <Skills/>
+      </div>
+      <div className="EduTitle flex justify-center items-center" style={{height:"300px",backgroundColor:"white"}}>
+          <h1 className="text-6xl p-5 underline decoration-blue-700" style={{textUnderlineOffset: "30px"}}>My Projects</h1>
+      </div>
+      <MyProject/>
       </div>
   )
 }
