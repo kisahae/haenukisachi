@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/haenukisachi/static/css/main.3889fed2.css",
+    "main.js": "/haenukisachi/static/js/main.9037474a.js",
+    "static/js/787.128fc6e9.chunk.js": "/haenukisachi/static/js/787.128fc6e9.chunk.js",
+    "static/media/aquascape.gif": "/haenukisachi/static/media/aquascape.48a0074661991676bfb6.gif",
+    "static/media/Temi.gif": "/haenukisachi/static/media/Temi.8cb33c469fb61d15fb23.gif",
+    "static/media/animalprotector.gif": "/haenukisachi/static/media/animalprotector.681894c7f676902baf21.gif",
+    "static/media/img5.jpg": "/haenukisachi/static/media/img5.d8dd3064fbebcd6fa7f0.jpg",
+    "static/media/img1.jpg": "/haenukisachi/static/media/img1.5e02310aba59a5d92bd8.jpg",
+    "static/media/img6.jpg": "/haenukisachi/static/media/img6.f77655c7a644b04eeac1.jpg",
+    "static/media/img2.jpg": "/haenukisachi/static/media/img2.2c60375853501d988fae.jpg",
+    "static/media/profilepicture.jpg": "/haenukisachi/static/media/profilepicture.e3141a1f8079cd0b40fe.jpg",
+    "static/media/img3.jpg": "/haenukisachi/static/media/img3.215763b4f8568460c676.jpg",
+    "static/media/img4.jpg": "/haenukisachi/static/media/img4.fcae1b1951a95a7d37d5.jpg",
+    "static/media/androidstudio.png": "/haenukisachi/static/media/androidstudio.8a81ac4da2816855eac7.png",
+    "static/media/hanyang_univ.png": "/haenukisachi/static/media/hanyang_univ.7b7bab35f5072eb62b40.png",
+    "static/media/python.png": "/haenukisachi/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/matlab.png": "/haenukisachi/static/media/matlab.5821b44d86984c741c1b.png",
+    "static/media/atma-univlogo.png": "/haenukisachi/static/media/atma-univlogo.1c28663d8261c6bdb171.png",
+    "static/media/cute-cartoon.gif": "/haenukisachi/static/media/cute-cartoon.9dc9242b22e62cf8f79e.gif",
+    "static/media/asia_univ.jpg": "/haenukisachi/static/media/asia_univ.7697b73b71dbbfe357ec.jpg",
+    "static/media/flutter.png": "/haenukisachi/static/media/flutter.fdff4de155e8650a5a0d.png",
+    "static/media/firebase.png": "/haenukisachi/static/media/firebase.236ae3e4ef05a2984f5d.png",
+    "index.html": "/haenukisachi/index.html",
+    "main.3889fed2.css.map": "/haenukisachi/static/css/main.3889fed2.css.map",
+    "main.9037474a.js.map": "/haenukisachi/static/js/main.9037474a.js.map",
+    "787.128fc6e9.chunk.js.map": "/haenukisachi/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3889fed2.css",
+    "static/js/main.9037474a.js"
+  ]
+}
