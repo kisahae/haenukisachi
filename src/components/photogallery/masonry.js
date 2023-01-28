@@ -6,6 +6,7 @@ import img4 from "../../images/img4.jpg"
 import img5 from "../../images/img5.jpg"
 import img6 from "../../images/img6.jpg"
 
+
 const images = [
     img1,img2,img3,img4,img5,img6
 ]

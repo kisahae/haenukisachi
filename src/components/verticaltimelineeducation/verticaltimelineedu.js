@@ -10,9 +10,9 @@ function VerticalEducationTimeline(){
 <VerticalTimeline lineColor="#000">
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(25, 26, 28)', color: '#fff'}}
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     icon={<img src={atmalogo} className="atma_logo" style={{backgroundColor:"white",height:"150%",margin:"auto"}}></img>}
+    date="2018-2023"
   >
     <h3 className="vertical-timeline-element-title">Atma Jaya Catholic University</h3>
     <h4 className="vertical-timeline-element-subtitle">Serpong, Tangerang Selatan</h4>
@@ -23,32 +23,32 @@ function VerticalEducationTimeline(){
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
-   contentStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
     className="vertical-timeline-element--work"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     icon={<img src={Hanyang_univ} style={{width:"80px",backgroundColor:"white"}}></img>}
+    date="March 2022 - June 2022"
   >
     <h3 className="vertical-timeline-element-title">Hanyang University</h3>
     <h4 className="vertical-timeline-element-subtitle">Ansan, South Korea</h4>
     <p>
       Robot Engineering (GPA:4.18/4.5), Course Taken: ICT Fusion Robotics, Game Programming Language, Japan and Global Community, Advanced English Writing, and Survival Korean Class. 
     </p>
-    <p>March 2022 - June 2022</p>
+    
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
-   contentStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
     className="vertical-timeline-element--work"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
     icon={<img src={asia_univ}></img>}
+    date="September 2021 - January 2022"
   >
     <h3 className="vertical-timeline-element-title">Asia University Taiwan</h3>
     <h4 className="vertical-timeline-element-subtitle">Taichung, Taiwan</h4>
     <p>
       Virtual Exchange Student, Course Taken: Digital Image Processing and Data Science.
     </p>
-    <p>September 2021 - January 2022</p>
+   
   </VerticalTimelineElement>
   </VerticalTimeline>
   </div>
