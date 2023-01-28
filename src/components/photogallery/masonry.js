@@ -13,7 +13,7 @@ const images = [
 
 function React_Masonry(){
     return <ResponsiveMasonry style={{padding:"10px"}}
-    columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+    columnsCountBreakPoints={{350: 1,750: 3}}
 >
     <Masonry gutter="10px">
         {images.map((image, i) => (

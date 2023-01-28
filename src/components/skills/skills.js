@@ -91,7 +91,7 @@ function Skills(){
     return (
     <div className="flex flex-wrap justify-evenly items-center" style={{width:"90%"}}>
         {description.map(function(value){
-            return <div className="mb-10 card w-52 h-52 flex justify-evenly shadow-xl bg-base-100 border-4 hover:bg-gray-300/10 transition-all duration-200 hover:shadow hover:-translate-y-3">
+            return <div className="mb-10 card w-52 h-52 flex justify-evenly shadow-xl bg-base-100 border-4 hover:bg-gray-800 hover:text-white transition-all duration-200 hover:shadow hover:-translate-y-3">
                 <figure className="text-7xl">{value.icon}</figure>
                     <div>
                       <h2 className="card-title justify-center">{value.text}</h2>

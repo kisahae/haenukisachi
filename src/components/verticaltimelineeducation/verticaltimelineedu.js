@@ -9,7 +9,7 @@ function VerticalEducationTimeline(){
         <div id = "education">
 <VerticalTimeline lineColor="#000">
   <VerticalTimelineElement
-    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
+    className="vertical-timeline-element--work transition-all duration-200 hover:scale-110"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     icon={<img src={atmalogo} className="atma_logo" style={{backgroundColor:"white",height:"150%",margin:"auto"}}></img>}
     date="2018-2023"
@@ -23,7 +23,7 @@ function VerticalEducationTimeline(){
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
-    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
+    className="vertical-timeline-element--work transition-all duration-200 hover:scale-110"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     icon={<img src={Hanyang_univ} style={{width:"80px",backgroundColor:"white"}}></img>}
     date="March 2022 - June 2022"
@@ -37,7 +37,7 @@ function VerticalEducationTimeline(){
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
-    className="vertical-timeline-element--work hover:bg-gray-300/10 transition-all duration-200 hover:scale-105"
+    className="vertical-timeline-element--work transition-all duration-200 hover:scale-110"
     contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
     iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
     icon={<img src={asia_univ}></img>}
