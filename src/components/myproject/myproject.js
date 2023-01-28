@@ -27,7 +27,7 @@ function MyProject(){
 
 
     return(
-        <div className="flex flex-wrap justify-evenly mb-5">
+        <div id="project" className="flex flex-wrap justify-evenly mb-5">
             {projectContent.map(function(value){
                 return <div className="card w-96  flex justify-center mb-2 hover:scale-105 duration-300 p-3 hover:bg-gray-800 hover:text-white">
                             <figure className="mt-3">

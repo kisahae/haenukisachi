@@ -18,7 +18,7 @@ function React_Masonry(){
     <Masonry gutter="10px">
         {images.map((image, i) => (
             <img
-                className="hover:filter-none duration-500"
+                className="hover:filter-none duration-500 hover:scale-105 hover:z-50"
                 key={i}
                 src={image}
                 style={{width: "100%", display: "block",filter:"grayscale(100%)"}}
