@@ -29,7 +29,7 @@ function MyProject(){
     return(
         <div id="project" className="flex flex-wrap justify-evenly mb-5">
             {projectContent.map(function(value){
-                return <div className="card w-96  flex justify-center mb-2 hover:scale-105 duration-300 p-3 hover:bg-gray-800 hover:text-white">
+                return <div className="card w-96  flex justify-center mb-4 hover:scale-105 duration-300 p-3 hover:bg-gray-800 hover:text-white">
                             <figure className="mt-3">
                                 {value.gif}
                             </figure>

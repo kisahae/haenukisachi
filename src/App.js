@@ -59,7 +59,7 @@ export default function App() {
       <div className="flex-col items-center justify-center text-center" style={{height:"250px",backgroundColor:"white"}}>
           <h1 className="text-6xl p-5 underline decoration-blue-700 mt-10" style={{textUnderlineOffset: "30px"}}>My Projects</h1>
           <div className="flex justify-center" style={{marginTop:"20px"}}>
-          <img src={sticker} style={{width:"8%",marginTop:"8px"}}></img>
+          {/* //<img src={sticker} style={{width:"8%",marginTop:"8px"}}></img> */}
           <a className="flex justify-center mt-4" href="https://github.com/kisahae" style={{fontSize:"600%"}}>
           <DiGithubBadge className="hover:scale-105 duration-300 transition-all bg-transparent"/>
           </a>
