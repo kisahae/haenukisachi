@@ -3,8 +3,10 @@ import {SiCplusplus,SiCsharp,SiArduino,SiStorybook,SiTailwindcss} from "react-ic
 import matlab from "../../images/matlab.png"
 import python from "../../images/python.png"
 import androidstudio from "../../images/androidstudio.png"
+import widgetbook from "../../images/widgetbook.png"
 import flutter from "../../images/flutter.png"
 import firebase from "../../images/firebase.png"
+import dart from "../../images/dart.png"
 function Skills(){
   const description = [
     {
@@ -48,6 +50,10 @@ function Skills(){
       text:"Java"
     },
     {
+      icon: <img src={dart} style={{width:"35%"}} alt="dart"></img>,
+      text:"Dart"
+    },
+    {
       icon:<SiArduino style={{color:"#009298"}}/>,
       text:"Arduino"
     },
@@ -70,6 +76,10 @@ function Skills(){
     {
       icon:<SiStorybook style={{color:"#f74581"}}/>,
       text:"Storybook"
+    },
+    {
+      icon:<img src={widgetbook} style={{width:"35%"}} alt="widgetbook"></img>,
+      text:"Widgetbook"
     },
     {
       icon:<DiBootstrap style={{color:"#7111F0"}}/>,
