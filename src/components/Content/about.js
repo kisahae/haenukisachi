@@ -21,7 +21,7 @@ function About() {
           <a href="https://github.com/kisahae"><BsGithub/></a>
         </div>
         <TypeAnimation
-            sequence={['Haenuki Sachi', 10000, '']}
+            sequence={['Haenuki Sachi', 5000, '']}
             speed={10} 
             deletionSpeed={10}
             wrapper="h2"
