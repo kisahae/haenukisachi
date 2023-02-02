@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/haenukisachi/static/css/main.715bc194.css",
-    "main.js": "/haenukisachi/static/js/main.3a4ab7fc.js",
+    "main.css": "/haenukisachi/static/css/main.1667ce7c.css",
+    "main.js": "/haenukisachi/static/js/main.3bff09fa.js",
     "static/js/787.128fc6e9.chunk.js": "/haenukisachi/static/js/787.128fc6e9.chunk.js",
     "static/media/aquascape.gif": "/haenukisachi/static/media/aquascape.48a0074661991676bfb6.gif",
     "static/media/Temi.gif": "/haenukisachi/static/media/Temi.8cb33c469fb61d15fb23.gif",
@@ -25,12 +25,12 @@
     "static/media/dart.png": "/haenukisachi/static/media/dart.f00251a3d3eee7148f7a.png",
     "static/media/firebase.png": "/haenukisachi/static/media/firebase.236ae3e4ef05a2984f5d.png",
     "index.html": "/haenukisachi/index.html",
-    "main.715bc194.css.map": "/haenukisachi/static/css/main.715bc194.css.map",
-    "main.3a4ab7fc.js.map": "/haenukisachi/static/js/main.3a4ab7fc.js.map",
+    "main.1667ce7c.css.map": "/haenukisachi/static/css/main.1667ce7c.css.map",
+    "main.3bff09fa.js.map": "/haenukisachi/static/js/main.3bff09fa.js.map",
     "787.128fc6e9.chunk.js.map": "/haenukisachi/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.715bc194.css",
-    "static/js/main.3a4ab7fc.js"
+    "static/css/main.1667ce7c.css",
+    "static/js/main.3bff09fa.js"
   ]
 }
