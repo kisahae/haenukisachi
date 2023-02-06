@@ -5,59 +5,53 @@ import { IoIosNuclear } from "react-icons/io";
 import "./verticaltimeline.css"
 
 function Timeline(){
+  const educationData = [
+    {
+      date:"November 2022 - Present",
+      icon:<HiOutlineCode />,
+      title:"Software Developer Intern",
+      subtitle:"Serpong, Tangerang Selatan",
+      explanation:"React JS, Storybook, Babel, Rollup, Tailwind CSS, Bitbucket, and Jira."
+    },
+    {
+      date:"June 2019 - August 2022",
+      icon:<HiUsers />,
+      title:"Computer Lab Assistant",
+      subtitle:"Serpong, Tangerang Selatan",
+      explanation:"Maintaining the lab facility and assisting the lecturer."
+    },
+    {
+      date:"September 2021 - October 2021",
+      icon:<IoIosNuclear />,
+      title:"Instrumentation and Control Intern",
+      subtitle:"Serpong, Tangerang Selatan",
+      explanation:"Created the simulation of fire alarms system for nuclear reactor using LabVIEW and Proteus."
+    }
+  ]
     return (
       <div>
-        <div id="experience">
-
-        
-<VerticalTimeline lineColor="#000">
-  <VerticalTimelineElement 
-    className="vertical-timeline-element--work transition-all duration-200 hover:scale-105"
-    contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
-    date="November 2022 - Present"
-    iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
-    icon={<HiOutlineCode />}
-  >
-    <h3 className="vertical-timeline-element-title">Software Developer Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">Serpong, Tangerang Selatan</h4>
-    <p>
-      React JS, Storybook, Babel, Rollup, Tailwind CSS, Bitbucket, and Jira.
-    </p>
-  </VerticalTimelineElement>
-
-
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work transition-all duration-200 hover:scale-105"
-    
-    contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
-    date="June 2019 - August 2022"
-    iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
-    icon={<HiUsers />}
-  >
-    <h3 className="vertical-timeline-element-title">Computer Lab Assistant</h3>
-    <h4 className="vertical-timeline-element-subtitle">Serpong, Tangerang Selatan</h4>
-    <p>
-      Maintaining the lab facility and assisting the lecturer. 
-    </p>
-  </VerticalTimelineElement>
-
-
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work transition-all duration-200 hover:scale-105"
-    contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
-    date="June 2019 - August 2022"
-    iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
-    icon={<IoIosNuclear />}
-  >
-    <h3 className="vertical-timeline-element-title">Instrumentation and Control Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">Serpong, Tangerang Selatan</h4>
-    <p>
-      Created the simulation of fire alarms system for nuclear reactor using LabVIEW and Proteus. 
-    </p>
-  </VerticalTimelineElement>
-  </VerticalTimeline>
-  </div>
-  </div>
+          <div id="experience">
+            <VerticalTimeline lineColor="#000">
+            {
+                educationData.map(function (value){
+                  return <VerticalTimelineElement 
+                          className="vertical-timeline-element--work transition-all duration-200 hover:scale-105"
+                          contentArrowStyle={{ borderRight: '7px solid  rgb(25, 26, 28)' }}
+                          date={value.date}
+                          iconStyle={{ background: 'rgb(25, 26, 28)', color: '#fff' }}
+                          icon={value.icon}
+                        >
+                          <h3 className="vertical-timeline-element-title">{value.title}</h3>
+                          <h4 className="vertical-timeline-element-subtitle">{value.subtitle}</h4>
+                          <p>
+                              {value.explanation}
+                          </p>
+                        </VerticalTimelineElement>
+                  })
+            }
+            </VerticalTimeline>
+          </div>
+      </div>
 )
 }
 

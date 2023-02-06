@@ -3,8 +3,22 @@ import ProfilePicture from "../../images/profilepicture.jpg"
 import { TypeAnimation } from 'react-type-animation';
 import { Container } from "@nextui-org/react"
 import { BsInstagram,BsLinkedin,BsGithub } from "react-icons/bs"
-import {AiOutlineMail  } from "react-icons/ai"
 function About() {
+  const contact=[
+    {
+      link: "https://www.instagram.com/kisahae____/",
+      icon: <BsInstagram />
+    },
+    {
+      link: "https://www.linkedin.com/in/haenuki-sachi-59153a216/",
+      icon: <BsLinkedin/>
+    },
+    {
+      link:"https://github.com/kisahae",
+      icon: <BsGithub/>
+    }
+  ]
+
   return (
     <div id="about">
     <Container className="mb-10">
@@ -16,9 +30,11 @@ function About() {
           aria-multiselectable
         />
         <div style={{fontSize:"30px",display:"flex"}} className="w-36 items-center flex justify-around mb-3">
-          <a href="https://www.instagram.com/kisahae____/"><BsInstagram /></a>
-          <a href="https://www.linkedin.com/in/haenuki-sachi-59153a216/"><BsLinkedin/></a>
-          <a href="https://github.com/kisahae"><BsGithub/></a>
+          {
+            contact.map(function (value){
+              return <a href={value.link}>{value.icon}</a>
+            })
+          }
         </div>
         <TypeAnimation
             sequence={['Haenuki Sachi', 5000, '']}

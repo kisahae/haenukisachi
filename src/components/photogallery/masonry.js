@@ -23,7 +23,6 @@ function React_Masonry(){
                 src={image}
                 style={{width: "100%", display: "block",filter:"grayscale(100%)"}}
                 alt="Haenuki Photos"
-
             />
         ))}
     </Masonry>

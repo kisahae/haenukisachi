@@ -1,16 +1,35 @@
-import { Container ,Navbar as NextUINavbar } from "@nextui-org/react"
+import { Navbar as NextUINavbar } from "@nextui-org/react"
 
 function Navbar() {
+  const NavbarItem = [
+    {
+      navbarid: "#about",
+      text:"About"
+    },
+    {
+      navbarid: "#experience",
+      text:"Experiences"
+    },
+    {
+      navbarid: "#education",
+      text:"Education"
+    },
+    {
+      navbarid: "#project",
+      text:"Projects"
+    }
+  ]
   return (
     <div style={{position:"fixed",width:"100%",zIndex:"10000",height:"80px",backgroundColor:"white"}}>
       <NextUINavbar.Content
         activeColor="primary"
         css={{display:"flex",justifyContent:"center",width:"100%"}}
       >
-        <NextUINavbar.Link href="#about">About</NextUINavbar.Link>
-        <NextUINavbar.Link href="#experience">Experiences</NextUINavbar.Link>
-        <NextUINavbar.Link href="#education">Education</NextUINavbar.Link>
-        <NextUINavbar.Link href="#project">Projects</NextUINavbar.Link>
+        {
+          NavbarItem.map(function (value){
+            return  <NextUINavbar.Link href={value.navbarid}>{value.text}</NextUINavbar.Link>
+          })
+        }
       </NextUINavbar.Content>
 
     </div>
