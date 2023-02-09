@@ -7,7 +7,7 @@ import "./verticaltimeline.css"
 function Timeline(){
   const educationData = [
     {
-      date:"November 2022 - Present",
+      date:"November 2022 - February 2023",
       icon:<HiOutlineCode />,
       title:"Software Developer Intern",
       subtitle:"Serpong, Tangerang Selatan",
@@ -18,14 +18,14 @@ function Timeline(){
       icon:<IoIosNuclear />,
       title:"Instrumentation and Control Intern",
       subtitle:"Serpong, Tangerang Selatan",
-      explanation:"Created the simulation of fire alarms system for nuclear reactor using LabVIEW and Proteus."
+      explanation:"Creating the simulation of fire alarm system for nuclear reactor using LabVIEW and Proteus."
     },
     {
       date:"June 2019 - August 2022",
       icon:<HiUsers />,
       title:"Computer Lab Assistant",
       subtitle:"Serpong, Tangerang Selatan",
-      explanation:"Maintaining the lab facility and assisting the lecturer."
+      explanation:"Maintaining the lab facilities and assisting the lecturer."
     }
   ]
     return (
