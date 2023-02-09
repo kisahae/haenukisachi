@@ -9,7 +9,7 @@ function VerticalEducationTimeline(){
     {
       img: atmalogo,
       alt: "Atma Jaya Logo",
-      date:"2018-2023",
+      date:"August 2018- Jan 2023",
       title:"Atma Jaya Catholic University",
       subtitle:"Serpong, Tangerang Selatan",
       description:"Electrical Engineering Department (GPA: 3.99/4.00), Activities: Atma Jaya Wushu Club, OASE, and Atma Jaya Artificial Intelligence Base Club (AJAIB).",

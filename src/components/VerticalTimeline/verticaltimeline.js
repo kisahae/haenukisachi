@@ -14,18 +14,18 @@ function Timeline(){
       explanation:"React JS, Storybook, Babel, Rollup, Tailwind CSS, Bitbucket, and Jira."
     },
     {
-      date:"June 2019 - August 2022",
-      icon:<HiUsers />,
-      title:"Computer Lab Assistant",
-      subtitle:"Serpong, Tangerang Selatan",
-      explanation:"Maintaining the lab facility and assisting the lecturer."
-    },
-    {
       date:"September 2021 - October 2021",
       icon:<IoIosNuclear />,
       title:"Instrumentation and Control Intern",
       subtitle:"Serpong, Tangerang Selatan",
       explanation:"Created the simulation of fire alarms system for nuclear reactor using LabVIEW and Proteus."
+    },
+    {
+      date:"June 2019 - August 2022",
+      icon:<HiUsers />,
+      title:"Computer Lab Assistant",
+      subtitle:"Serpong, Tangerang Selatan",
+      explanation:"Maintaining the lab facility and assisting the lecturer."
     }
   ]
     return (
