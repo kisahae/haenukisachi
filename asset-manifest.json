@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/haenukisachi/static/css/main.1667ce7c.css",
-    "main.js": "/haenukisachi/static/js/main.2c2bd2b3.js",
+    "main.js": "/haenukisachi/static/js/main.ccab6695.js",
     "static/js/787.128fc6e9.chunk.js": "/haenukisachi/static/js/787.128fc6e9.chunk.js",
     "static/media/aquascape.gif": "/haenukisachi/static/media/aquascape.48a0074661991676bfb6.gif",
     "static/media/Temi.gif": "/haenukisachi/static/media/Temi.8cb33c469fb61d15fb23.gif",
@@ -26,11 +26,11 @@
     "static/media/firebase.png": "/haenukisachi/static/media/firebase.236ae3e4ef05a2984f5d.png",
     "index.html": "/haenukisachi/index.html",
     "main.1667ce7c.css.map": "/haenukisachi/static/css/main.1667ce7c.css.map",
-    "main.2c2bd2b3.js.map": "/haenukisachi/static/js/main.2c2bd2b3.js.map",
+    "main.ccab6695.js.map": "/haenukisachi/static/js/main.ccab6695.js.map",
     "787.128fc6e9.chunk.js.map": "/haenukisachi/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1667ce7c.css",
-    "static/js/main.2c2bd2b3.js"
+    "static/js/main.ccab6695.js"
   ]
 }
